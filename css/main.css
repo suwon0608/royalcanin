@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* { margin:0;  padding:0; box-sizing:border-box;}
+li { 
+    list-style:none; }
+a { 
+    text-decoration:none;}
+body { 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.nav-link { color: #000}
+
+.navbar-toggler:focus {box-shadow:none}
+
+img { 
+    width:100%;
+}
+header {
+    background:url('../img/dog-cat-love-today-tease-1-60202.jpg') no-repeat center 20%/cover; 
+    padding:60px 0 100px; }
+
+header h2 { 
+    padding-top: 120px;
+    font-size:5.5vw; 
+    text-shadow:0 0 5px rgb(0 0 0 /80%);
+}
+header h4 { 
+    font-size:16px; 
+    padding-bottom:60px; 
+}
+header .cener_Txt  button {
+    width: 150px; margin-left: 20px;
+}
+header .cener_Txt  button:first-child{
+    margin-left: 0px;
+}
+
+
+nav img { 
+    width:15vw; height: 100%;
+}
+
+section { padding:70px 0; }
+section h2 { font-size:36px; line-height:1.4; 
+    margin-bottom:60px;}
+section p { font-size:14px; line-height:1.4; color:#333}
+section p .bi { color:#E32631; padding-right:10px; }
+section p.mt { margin-top:80px; }
+
+
+section#app {}
+section#app img { width:130px; height: 165px; margin-bottom:20px }
+section#app h3 { font-size:30px;  margin-bottom:20px; font-weight: bold;}
+section#app p { font-size:13px; line-height:1.6;  
+    margin-bottom:20px}
+section#app a { font-size:13px; }
+
+
+.outro { padding-bottom:100px;}
+.outro h3  { font-size:32px; }
+.outro p { font-size:16px; }
+.outro a { font-size:14px; }
+
+
+footer > div { padding:4.5vw 0 10vw; 
+    border-top:1px solid #424547}
+footer h3 {
+    color:#fff; 
+    font-size:18px; 
+    margin-bottom:25px;}
+footer a ,footer p { color:#8b98a3; }
+footer ul { padding-left:0; }
+footer li { 
+    margin-bottom:10px
+}
+footer li a:hover { 
+    color:#8b98a3; 
+    text-decoration:underline ;}
+
+
+.sns {}
+.sns a { 
+    display:inline-block; 
+    background:#2a2f3d; 
+    width:32px; height:32px;
+    color:#fff; 
+    line-height:32px; border-radius:50%; 
+    text-align:center; 
+    margin-right:5px; 
+    transition:0.2s; }
+.sns a:hover { background:#939aac; } 
+
+
+/* 1100px 이상 */
+@media ( min-width:1200px) {
+header { 
+    padding:150px 0 100px; }
+header h2 { }
+header h4 { 
+    font-size:18px; 
+    }
+    
+}
+
+/*768px 이하*/
+@media ( max-width:1060px) {
+    
+
+}
+
+/* 767px 이하 */
+
+@media ( max-width:767px) {
+header { 
+    padding:100px 0 70px; 
+}
+header h2 { 
+    font-size:70px 
+}
+header h4 { 
+    font-size:17px; 
+}
+header .cener_Txt button {
+    width: 150px; margin-left: 20px;
+    margin-top: -40px;
+}
+header .cener_Txt button:first-child{
+    margin-left: 0px;
+}
+header p { 
+    font-size:14px;
+}
+nav img { 
+    width:40vw; height: 100%;
+}
+
+
+section { 
+    padding:40px 0; 
+}
+section h2 { 
+    font-size:24px; 
+    margin-bottom:30px;
+}
+section p { 
+    font-size:12px; 
+}
+section p.mt { margin-top:40px;}
+
+.outro { padding-bottom:60px;}
+.outro h3  { font-size:22px; }
+.outro p { font-size:12px; }
+
+#s4 { padding-bottom:100px; }
+#app .row > div { padding-bottom:80px;}
+}
